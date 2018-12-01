@@ -1,0 +1,6 @@
+# Ignore the temporary file
+*~
+
+# Ignore swap file
+
+*.swp
