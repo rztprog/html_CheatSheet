@@ -1,4 +1,48 @@
-p {
-	background-color:blue;
-	color:lime;
+/* CSS RESET */
+*{
+	margin: Opx;
+	padding: O;
+}
+
+p{
+	color: cadetblue;
+}
+
+body{
+	background-color: darkslategrey;
+}
+
+a:link{
+	color: lightseagreen;
+}
+
+a:visited{
+	color: green;
+}
+
+li{
+	color: grey;
+	background-color: darkseagreen;
+	border: 2px solid royalblue;
+}
+
+li:hover{
+	color: white;
+	background-color: cornflowerblue;
+	border: 2px solid white;
+}
+
+table{
+	background-color: dimgray;
+	border: 2px solid black;
+}
+
+footer{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#weblogo {
+	color: red;
 }
