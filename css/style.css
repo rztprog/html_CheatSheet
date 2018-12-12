@@ -36,10 +36,18 @@ a:visited{
 	color: black;
 }
 
+/* nav.sticky{ */
+/* 	top: 0px; */
+/* 	position: -webkit-sticky; */
+/* 	position: sticky; */
+/* } */
+
 nav{
 	margin-bottom: 5px;
+	border-top: 1px solid black;
+	border-bottom: 1px solid black;
 	padding: 5px 0px 5px 0px;
-	background-color: #001f50;
+	background-color: #002f50;
 }
 
 nav > a{
@@ -58,6 +66,9 @@ nav > a:hover{
 }
 
 table{
+	display: block;
+	margin-left: 10px;
+	margin-right: 10px;
 	background-color: dimgray;
 	border: 2px solid black;
 }
@@ -67,6 +78,9 @@ form{
 }
 
 footer{
+	padding: 5px;
+	border-top: 1px solid black;
+	background-color: #002f50;
 	margin-top: 10px;
 	display: block;
 	text-align: center;
