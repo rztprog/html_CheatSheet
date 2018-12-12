@@ -10,6 +10,11 @@ header{
 	margin-bottom: 10px;
 }
 
+h1{
+	color: lawngreen;
+	text-shadow: 3px 3px black;
+}
+
 #welcomegif{
 	width: 30%;
 	/* height: 50%; */ 
