@@ -19,8 +19,9 @@ p{
 	color: lawngreen;
 }
 
-.para {
+.para{
 	text-align: center;
+	margin: 5px 0px 5px 0px;
 }
 
 body{
@@ -35,12 +36,15 @@ a:visited{
 	color: black;
 }
 
-/* nav{  */ /* AJOUTER AU HEADER /*
-/* 	margin-bottom: 10px; */
-/* } */
+nav{
+	margin-bottom: 5px;
+	padding: 5px 0px 5px 0px;
+	background-color: grey;
+}
 
 nav > a{
 	display: inline-block;
+	margin: 0px 5px 0px 5px;
 	color: white;
 	background-color: darkseagreen;
 	border: 2px solid white;
@@ -48,9 +52,9 @@ nav > a{
 }
 
 nav > a:hover{
-	color: #001f36;
+	color: red;
 	background-color: lawngreen;
-	border: 2px solid white;
+	border: 2px solid red;
 }
 
 table{
