@@ -1,15 +1,30 @@
 /* CSS RESET */
 *{
-	margin: Opx;
-	padding: O;
+	margin: 0px;
+	padding: 0px; 
+}
+/* CSS RESET */
+
+header{
+	text-align: center;
+	margin-bottom: 10px;
+}
+
+#welcomegif{
+	width: 30%;
+	/* height: 50%; */ 
 }
 
 p{
-	color: cadetblue;
+	color: lawngreen;
+}
+
+.para {
+	text-align: center;
 }
 
 body{
-	background-color: darkslategrey;
+	background-color: #001f36;
 }
 
 a:link{
@@ -17,18 +32,24 @@ a:link{
 }
 
 a:visited{
-	color: green;
+	color: black;
 }
 
-li{
-	color: grey;
-	background-color: darkseagreen;
-	border: 2px solid royalblue;
-}
+/* nav{  */ /* AJOUTER AU HEADER /*
+/* 	margin-bottom: 10px; */
+/* } */
 
-li:hover{
+nav > a{
+	display: inline-block;
 	color: white;
-	background-color: cornflowerblue;
+	background-color: darkseagreen;
+	border: 2px solid white;
+	width: 100px;
+}
+
+nav > a:hover{
+	color: #001f36;
+	background-color: lawngreen;
 	border: 2px solid white;
 }
 
@@ -37,12 +58,12 @@ table{
 	border: 2px solid black;
 }
 
-footer{
-	display: block;
-	margin-left: auto;
-	margin-right: auto;
+form{
+	box-align: center;
 }
 
-#weblogo {
-	color: red;
+footer{
+	margin-top: 10px;
+	display: block;
+	text-align: center;
 }
