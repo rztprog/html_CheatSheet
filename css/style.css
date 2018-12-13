@@ -19,6 +19,10 @@ footer{
 	text-align: center;
 }
 
+footer > a > img:hover{
+	background-color: white;
+}
+
 h1{
 	font-size: 5vw;
 	margin-top: 10px;
