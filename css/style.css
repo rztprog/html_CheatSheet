@@ -48,8 +48,8 @@ p{
 }
 
 .para{
-	text-align: center;
-	margin: 5px 0px 5px 0px;
+	 text-align: center; */
+	 margin: 5px 0px 5px 0px; */
 }
 
 body{
@@ -57,7 +57,7 @@ body{
 }
 
 a:link{
-	color: lightseagreen;
+	color: black;
 }
 
 a:visited{
