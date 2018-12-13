@@ -64,9 +64,13 @@ nav{
 	border-bottom: 1px solid black;
 	padding: 5px 0px 5px 0px;
 	background-color: #002f50;
+	/* outline-color: red; */
+	/* outline-style: dashed; */
+	outline: dashed red;
 }
 
 nav > a{
+	text-decoration: none;
 	display: inline-block;
 	margin: 0px 5px 0px 5px;
 	color: white;
