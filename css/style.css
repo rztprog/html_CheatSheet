@@ -43,14 +43,14 @@ h2{
 	/* height: 50%; */ 
 }
 
-p{
-	color: lawngreen;
+p, #copyr{
+	color: white;
 	/* font-size: 1em; */
 }
 
 .para{
-	 text-align: center; */
-	 margin: 5px 0px 5px 0px; */
+	text-align: center; */
+margin: 5px 0px 5px 0px; */
 }
 
 body{
@@ -67,20 +67,47 @@ a:visited{
 
 /* nav.sticky{ */
 /* 	top: 0px; */
-/* 	position: -webkit-sticky; */
+/* 	position: -moz-sticky; */
 /* 	position: sticky; */
 /* } */
 
-#copyr{
-	color: white;		
+
+table{
+	display: block;
+	border-collapse: collapse;
+	margin: 0 0.625em 0.625em 0.625em;
+	/* margin-left: 0.625em; */
+	/* margin-right: 0.625em; */
+	/* margin-bottom: 0.625em; */
+	background-color: gainsboro;
+	border: 0.125em solid black;
+}
+
+tr, td, th{
+	padding: 0 0 0 0.125em;
+	border: 0.0625em solid black;
+	/* border-left: 0.0625em solid black; */
+	height: 2em;
+	text-align: left;
+}
+
+tr:nth-child(even){
+	background-color: ghostwhite;
+}
+
+th{
+	background-color: rgb(150, 150, 150);
+	text-align: center;
+	height: 3em;
 }
 
 nav{
 	/* margin-bottom: 5px; */
-	margin: 0px 0.625em 0px 0.625em;
+	margin: 0px 0.3125em 0px 0.3125em;
 	border-top: 1px solid black;
 	border-bottom: 1px solid black;
-	padding: 0.5vw 0vw 0.5vw 0vw;
+	/* padding: 0.5vw 0vw 0.5vw 0vw; */
+	padding: auto;
 	background-color: #002f50;
 	outline: 1px dashed white;
 }
@@ -88,7 +115,7 @@ nav{
 nav > a{
 	text-decoration: none;
 	display: inline-block;
-	margin: 0.3125em 0.625em 0.315em 0.625em;
+	/* margin: 0.3125em 0.625em 0.315em 0.625em; */
 	color: white;
 	background-color: darkseagreen;
 	border: 2px solid white;
@@ -102,14 +129,6 @@ nav > a:hover{
 	border: 2px solid black;
 }
 
-table{
-	display: block;
-	margin-left: 10px;
-	margin-right: 10px;
-	background-color: dimgray;
-	border: 2px solid black;
-}
-
 fieldset > div{
 	/* padding-left: 5px; */
 	/* padding-bottom: 5px; */
@@ -119,7 +138,7 @@ fieldset > div{
 form{
 	color: white;
 	padding: 0px 10px 0px 10px;
-	
+
 }
 
 legend{
