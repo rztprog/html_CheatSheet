@@ -39,8 +39,7 @@ h2{
 }
 
 #welcomegif{
-	max-width: 40%;
-	/* max-height: 40%; */ 
+	max-width: 30%;
 }
 
 p, #copyr{
@@ -104,10 +103,10 @@ th{
 nav{
 	/* margin-bottom: 5px; */
 	margin: 0em 0.3125em 0em 0.3125em;
-	border-top: 1px solid black;
-	border-bottom: 1px solid black;
+	border: 0.0625em solid black;
+	/* border-bottom: 1px solid black; */
 	/* padding: 0.5vw 0vw 0.5vw 0vw; */
-	padding: auto;
+	padding: 0 1em 0 1em;
 	background-color: #002f50;
 	outline: 1px dashed white;
 }
