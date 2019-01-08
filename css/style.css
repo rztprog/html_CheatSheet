@@ -89,6 +89,7 @@ table{
 }
 
 tr, td, th{
+	width: 100%;
 	padding: 0 0 0 0.125em;
 	border: 0.0625em solid black;
 	/* border-left: 0.0625em solid black; */
